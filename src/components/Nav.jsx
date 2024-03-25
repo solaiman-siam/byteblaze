@@ -21,8 +21,8 @@ function Nav() {
     }
 
   return (
-    <nav>
-        <div className="navbar bg-base-100 shadow-lg container mx-auto lg:px-16 px-6 fixed">
+    <nav className=" ">
+        <div className="navbar bg-base-100   shadow-lg fixed z-10 lg:px-12 px-6">
           <div className="flex-1">
             <a className="btn btn-ghost text-2xl gap-0 normal-case"><span className="text-primary">Byte</span><span className="text-secondary">Blaze</span></a>
           </div>
